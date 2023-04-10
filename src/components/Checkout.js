@@ -494,7 +494,7 @@ const Checkout = () => {
       enqueueSnackbar("You must be logged in to access checkout page",{
         variant:"info",
       });
-      history.push("/");
+      history.push("/login");
     }
   },[token]);
 
